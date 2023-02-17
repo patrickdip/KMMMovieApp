@@ -1,4 +1,4 @@
 # KMMMovieApp
 Kotlin Multiplatform Movie App
 
-Watch the video series on my Youtube Channel: youtube.com/mrdipcoding
+Watch the video series on my Youtube Channel: https://www.youtube.com/mrdipcoding
