@@ -80,9 +80,9 @@ fun MovieApp() {
             }
 
             composable(Detail.routeWithArgs, arguments = Detail.arguments){
-                val movieId = it.arguments?.getString("movieId") ?: "0"
+                val movieId = it.arguments?.getInt("movieId") ?: 0
                 val detailViewModel: DetailViewModel = koinViewModel(
-                    parameters = { parametersOf(movieId.toInt()) }
+                    parameters = { parametersOf(movieId) }
                 )
 
                 DetailScreen(uiState = detailViewModel.uiState)
